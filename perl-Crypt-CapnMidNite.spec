@@ -6,7 +6,7 @@
 %define	pdir	Crypt
 %define	pnam	CapnMidNite
 Summary:	Crypt::CapnMidNite - Perl interface to MD5, RC4 encrypt/decrypt
-Summary(pl):	Crypt::CapnMidNite - perlowy interfesj do szyfrowania/odszyfrowywania MD5, RC4
+Summary(pl):	Crypt::CapnMidNite - interfejs perlowy do szyfrowania/odszyfrowywania MD5, RC4
 Name:		perl-Crypt-CapnMidNite
 Version:	1.00
 Release:	1
