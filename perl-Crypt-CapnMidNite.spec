@@ -80,7 +80,8 @@ mv -f blib blib.CapnMidNite
 rm -f pm_to_blib
 mv -f name.C_LockTite name
 
-%{__make} OPTIMIZE="%{rpmcflags}"
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
 
