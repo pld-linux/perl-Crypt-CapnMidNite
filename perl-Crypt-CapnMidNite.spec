@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Crypt
@@ -74,7 +74,7 @@ mv -f name.CapnMidNite name
 %{__make} -f Makefile.CapnMidNite \
 	OPTIMIZE="%{rpmcflags}"
 
-%{!?_without_tests:%{__make} test -f Makefile.CapnMidNite}
+%{?with_tests:%{__make} test -f Makefile.CapnMidNite}
 
 mv -f blib blib.CapnMidNite
 rm -f pm_to_blib
