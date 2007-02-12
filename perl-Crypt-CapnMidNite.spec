@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	CapnMidNite
 Summary:	Crypt::CapnMidNite - Perl interface to MD5, RC4 encrypt/decrypt
-Summary(pl):	Crypt::CapnMidNite - interfejs perlowy do szyfrowania/odszyfrowywania MD5, RC4
+Summary(pl.UTF-8):   Crypt::CapnMidNite - interfejs perlowy do szyfrowania/odszyfrowywania MD5, RC4
 Name:		perl-Crypt-CapnMidNite
 Version:	1.00
 Release:	1
@@ -25,15 +25,15 @@ Inc. MD5 Message Digest algorithm, RC4 stream crypt function and a
 modified, not readily reversible RC4 based stream crypt from within
 Perl programs.
 
-%description -l pl
-Modu³ Crypt::CapnMidNite pozwala na u¿ywanie algorytmów RSA Data
-Security Inc. takich jak algorytmu skrótu MD5, strumieniowej funkcji
-szyfruj±cej RC4 oraz zmodyfikowanej, nie od razu odwracalnej wersji
-strumieniowej funkcji szyfruj±cej opartej na RC4.
+%description -l pl.UTF-8
+ModuÅ‚ Crypt::CapnMidNite pozwala na uÅ¼ywanie algorytmÃ³w RSA Data
+Security Inc. takich jak algorytmu skrÃ³tu MD5, strumieniowej funkcji
+szyfrujÄ…cej RC4 oraz zmodyfikowanej, nie od razu odwracalnej wersji
+strumieniowej funkcji szyfrujÄ…cej opartej na RC4.
 
 %package -n perl-Crypt-C_LockTite
 Summary:	Crypt::C_LockTite - Perl interface to MD5, RC4 encrypt/decrypt
-Summary(pl):	Crypt::C_LockTite - perlowy interfesj do szyfrowania/odszyfrowywania MD5, RC4
+Summary(pl.UTF-8):   Crypt::C_LockTite - perlowy interfesj do szyfrowania/odszyfrowywania MD5, RC4
 Group:		Development/Languages/Perl
 
 %description -n perl-Crypt-C_LockTite
@@ -45,13 +45,13 @@ Perl programs.
 This module contains proprietary version of "encode" function,
 modified from one that comes in Crypt::CapnMidNite module.
 
-%description -n perl-Crypt-C_LockTite -l pl
-Modu³ Crypt::C_LockTite pozwala na u¿ywanie algorytmów RSA Data
-Security Inc. takich jak algorytmu skrótu MD5, strumieniowej funkcji
-szyfruj±cej RC4 oraz zmodyfikowanej, nie od razu odwracalnej wersji
-strumieniowej funkcji szyfruj±cej opartej na RC4.
+%description -n perl-Crypt-C_LockTite -l pl.UTF-8
+ModuÅ‚ Crypt::C_LockTite pozwala na uÅ¼ywanie algorytmÃ³w RSA Data
+Security Inc. takich jak algorytmu skrÃ³tu MD5, strumieniowej funkcji
+szyfrujÄ…cej RC4 oraz zmodyfikowanej, nie od razu odwracalnej wersji
+strumieniowej funkcji szyfrujÄ…cej opartej na RC4.
 
-Ten modu³ zawiera w³asn± wersjê funkcji "encode", zmodyfikowan± w
+Ten moduÅ‚ zawiera wÅ‚asnÄ… wersjÄ™ funkcji "encode", zmodyfikowanÄ… w
 stosunku do zawartej w module Crypt::CapnMidNite.
 
 %prep
