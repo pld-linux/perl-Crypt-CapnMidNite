@@ -81,6 +81,7 @@ rm -f pm_to_blib
 mv -f name.C_LockTite name
 
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
