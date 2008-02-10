@@ -9,7 +9,7 @@ Summary:	Crypt::CapnMidNite - Perl interface to MD5, RC4 encrypt/decrypt
 Summary(pl.UTF-8):	Crypt::CapnMidNite - interfejs perlowy do szyfrowania/odszyfrowywania MD5, RC4
 Name:		perl-Crypt-CapnMidNite
 Version:	1.00
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
