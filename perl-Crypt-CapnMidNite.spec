@@ -108,7 +108,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/CapnMidNite.pm
 %dir %{perl_vendorarch}/auto/Crypt/CapnMidNite
-%{perl_vendorarch}/auto/Crypt/CapnMidNite/CapnMidNite.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/CapnMidNite/CapnMidNite.so
 %{_mandir}/man3/Crypt::CapnMidNite*
 
@@ -117,6 +116,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/C_LockTite.pm
 %dir %{perl_vendorarch}/auto/Crypt/C_LockTite
-%{perl_vendorarch}/auto/Crypt/C_LockTite/C_LockTite.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/C_LockTite/C_LockTite.so
 %{_mandir}/man3/Crypt::C_LockTite*
